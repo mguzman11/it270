@@ -1,0 +1,145 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Travel Website</title>
+<link href="css/styles.css" type="text/css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$(".nav-button").click(function () {
+$(".nav-button,.primary-nav").toggleClass("open");
+});    
+});
+</script>
+</head>
+
+<body class="home">
+<header>
+<div class="inner">
+<!--the logo and the nav will be inside the innter-->
+<a href="index.html">
+<img id="logo" src="images/logo2.png" alt="logo"></a>
+<!--about, projects, contact, blog-->
+<nav>
+<button class= "nav-button">Toggle Navigation</button>
+
+<ul class="primary-nav">
+<li> <a href="about.html">About</a> </li>
+<li class="parent"><a href="#">Projects</a>
+<ul class="dropdown">
+<li><a href="jsproject.html">JavaScript</a></li>
+<li><a href="javaproject.html">Java</a></li>
+<li><a href="wpproject.html">WordPress</a></li>
+<li><a href="phpproject.html">PHP</a></li>
+</ul>
+</li>
+<li> <a href="contact.html">Contact</a></li>
+<li> <a href="blog.html">Blog</a> </li>
+</ul>
+
+</nav>
+
+</div> 
+</header>
+
+<div id="desk"> 
+<img src="images/desk.jpg" alt="desk image">
+</div>
+<div id="wrapper">
+<h1>Welcome to Melissa's Portfolio</h1>
+<p class="important"> "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris sem orci, 
+lobortis ac massa in, ullamcorper tincidunt augue."-Famous Quote</p>
+<figure>
+    <img class="profile" src="images/wit1.jpg" alt="woman at desk">
+</figure>
+
+<h2>Headline 2</h2>
+<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris sem orci, 
+lobortis ac massa in, ullamcorper tincidunt augue.Suspendisse rutrum odio et mi pulvinar, at auctor enim gravida. 
+Nulla vel feugiat felis, eu consectetur dui. Aliquam libero orci, ultricies a tempor a, congue eget arcu. </p>
+
+<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris sem orci, 
+lobortis ac massa in, ullamcorper tincidunt augue.Suspendisse rutrum odio et mi pulvinar, at auctor enim gravida. 
+Nulla vel feugiat felis, eu consectetur dui. </p>
+<div class="row">
+
+<div class="third">
+<h2>Project 1</h2>
+<p>Aliquam libero orci, ultricies a tempor a, congue eget arcu. 
+Cras in tellus accumsan, luctus dolor a, aliquam sem. </p>
+</div>
+
+<div class="third">
+
+<h2>Project 2</h2>
+<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris sem orci, 
+lobortis ac massa in, ullamcorper tincidunt augue.Suspendisse rutrum odio et mi pulvinar, at auctor enim gravida. 
+Nulla vel feugiat felis, eu consectetur dui. </p>
+</div>
+
+<div class="third">
+<h2>Project 3</h2>
+<p>Aliquam libero orci, ultricies a tempor a, congue eget arcu. 
+    Cras in tellus accumsan, luctus dolor a, aliquam sem. </p>
+
+</div>
+
+</div>
+<div class="row">
+<div class="col-8">
+<figure>
+<img class="project" src="images/softwaredev.jpg">
+<figcaption>Software Development</figcaption>
+</figure>
+<h3>Headline 3</h3>
+<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris sem orci, 
+lobortis ac massa in, ullamcorper tincidunt augue.Suspendisse rutrum odio et mi pulvinar, at auctor enim gravida. 
+Nulla vel feugiat felis, eu consectetur dui. Aliquam libero orci, ultricies a tempor a, congue eget arcu. 
+Cras in tellus accumsan, luctus dolor a, aliquam sem. </p>
+</div>
+<div class="col-8">
+<figure>
+<img class="project" src="images/webdesign.jpg">
+<figcaption>Web Development and Design</figcaption>
+</figure>
+<h3>Headline 3</h3>
+<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris sem orci, 
+lobortis ac massa in, ullamcorper tincidunt augue.Suspendisse rutrum odio et mi pulvinar, at auctor enim gravida. 
+Nulla vel feugiat felis, eu consectetur dui. Aliquam libero orci, ultricies a tempor a, congue eget arcu. 
+Cras in tellus accumsan, luctus dolor a, aliquam sem. </p>
+
+</div>
+</div> 
+<div class="row">  
+<p class="important">Aenean rutrum volutpat metus, ut placerat leo cursus 
+et. Donec ac mi posuere, vulputate nibh sit amet, lobortis mi. Morbi at bibendum enim. Donec at faucibus 
+magna. 
+</p>
+</div>
+
+</div>
+<!--end of wrapper-->
+<footer>
+<div class="inner">
+
+</div>
+</div>
+<div id="copyright">
+<ul>
+<li>Copyright@ 2020</li>
+<li>All Rights Reserved</li>
+<li><a href="#">Terms of Use</a></li>
+<li><a href="#">Web Design by Melissa</a></li>
+<li><a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> </li>
+<li><a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></li>
+</ul>
+
+
+</div>
+
+
+</footer>
+
+</body>
+</html>
